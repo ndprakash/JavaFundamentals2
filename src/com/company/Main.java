@@ -26,6 +26,7 @@ public class Main {
         Passenger bob= new Passenger(1,2);
         Passenger jane = new Passenger(1,3);
         flt1.addPassengers(new Passenger[]{bob,jane});
+	// Going to add enhancement
 
     }
 
