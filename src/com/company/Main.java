@@ -12,6 +12,7 @@ public class Main {
         for (var mathEquation : mathEquations) {
             mathEquation.execute();
             System.out.print("result=");
+	    System.out.println("Hello!");
             System.out.println(mathEquation.getResult());
         }
         MathEquation divEquation= new MathEquation('d');
